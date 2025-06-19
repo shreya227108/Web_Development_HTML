@@ -1,0 +1,78 @@
+Today We will start with some basic tags in HTML
+
+1.html Tag <html>
+-html tag is the parent tag which is used to wrap entire code.
+
+2.Head Tag <head>
+-head tag is used to write meta data and some instructions for browser.
+
+3.Meta Tag <meta>
+-MetaData is nothing but data about the data.
+-meta is used to add keywords related to website to increase the reach of our website and achieve SEO(search Engine Optimization).
+
+4.Title Tag <title>
+-we can update the name of the web page using title tag.
+
+5.Link Tag <link>
+-link tag is used to linking external css file.
+
+6.Script Tag <script>
+-script tag is used to linking external javascript file.
+
+7.Body tag <body>
+-Body tag is used to display the content in UI.
+
+8.Heading Tags <h1>
+-h1 to h6 are the heading tags and they vary in their font sizes.
+
+9.Paragraph Tag <p>
+-It give new line to text. The font size of p tag is 16px.
+
+10.formatting tags-
+
+	a. Bold tag <b> or strong tag <strong>
+		-Bold is from older version.
+		-Strong is from new version and helps for SEO.
+
+	b. Underline tag <u> or ins tag <ins>
+		-Underline tag is from older version.
+		-ins is from new version and it will help for SEO.
+
+	c. Italic tag <i> or emphasize tag <em>
+		-Italic tag is from older version.
+		-Emphasizes from newer versions and it will help for SEO.
+
+	d. strike tag <strike> or Delete tag <del>
+		-Strike tag is from older versions.
+		-is from newer versions and It is used to show text that has been removed by adding strike line on it.
+	
+	e. Subscript tag <sub>
+		-It Displays text slightly below the baseline.
+	
+	f. Superscript tag <sup>
+		-It Displays text slightly above the baseline.
+
+11.Code Tag <code>
+-Displays a piece of computer code.
+-Used for inline code snippets, not for full code blocks.  
+
+12.Address tag <address>
+-Defines contact information for the author/owner of a document or article.
+-Usually rendered in italic by browsers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
