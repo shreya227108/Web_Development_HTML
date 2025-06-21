@@ -1,0 +1,32 @@
+Today we will start with the Media Tags and also take a look at inline frame embedding
+
+#Media Tags
+1.Image Tag <img>
+-use one from width and height fot better resolution of image.
+-alt attribute is used to pass any alternative text when image is not found.
+-Downloaded images should be saved in asset folder located in same folder as index.html file.
+-there are two methods to implement image tag one using URL and another using downloaded local images.
+
+2.Video tag <video>
+-We dont have to follow any pattern/sequence for writting the attributes
+-src is used to set the path of the media.
+-Controls enables play pause functions.
+-Muted attribute keeps video on mute defaultly user can unmute it later.
+-Loop will keep playing video on loop.
+-using autoplay videos will be played automatically.
+
+3.Audio Tag <audio>
+-It works same as video tag but for adding audio files.
+
+4.Anchor Tag 
+-It is used to navigate from one web page to another page.
+-href=>Hyper reference. here we pass the path that where we want to go.
+-There are two types of this navigation:
+	-a. Navigate to another web page over internet.
+	-b. Navigate to another web page in your device.
+
+5.Inline frame Tag
+-It is used to embed another HTML document within the current HTML document
+-It allows you to load another webpage inside a frame on your webpage.
+
+
