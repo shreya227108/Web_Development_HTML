@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--1.image tag
+    -use one from width and height fot better resolution of image
+    -alt attribute is used to pass any alternative text when image is not found
+    -Downloaded images should be saved in asset folder located in same folder as index.html file
+    --> 
+
+    <!--First method(Using URL)-->
+    <img src="https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*" 
+    alt="Something went wrong" width="450px">
+
+    <!--Second Method(Using downloaded images)-->
+    <img src="../assets/Dog.jpeg" width="320px" alt="Dog's Image">
+
+    <img src="../assets/Nature.jpg" width="1000px" >
+
+    <!--2.Video tag
+    -We dont have to follow any pattern/sequence for writting the attributes
+    -src is used to set the path of the media.
+    -Controls enables play pause functions.
+    -Muted attribute keeps video on mute defaultly user can unmute it later.
+    -Loop will keep playing video on loop.
+    -using autoplay videos will be played automatically.
+    -->
+
+    <video src="../assets/ColourShades.mp4" width="1000px" controls loop autoplay></video>
+    <video src="../assets/Dance.mp4" width="300px" controls loop autoplay muted></video>
+
+    <!--3.Audio Tag-->
+    <br>
+    <audio src="../assets/SampleAudio.mp3" controls loop ></audio>
+
+    <!--4.Anchor Tag
+    -It is used to navigate from one place to another place
+    -href=>Hyper reference.here we pass the path that where we want to go
+    -->
+    <!--4.a.Nevigate to another web page over internet-->
+    <br>
+    <a href="https://www.pexels.com/search/nature/">Click Here</a>
+    
+    <br>
+    <!--4.b.Nevigate to another web page in your device-->
+    <a href="../Pages/home.html">Go to home page</a>
+    <br>
+    <a href="../Pages/Women.html">Womens</a>
+    <br>
+    <a href="../Pages/Men.html">Mens</a>
+    <br>
+    <a href="../Pages/kids.html"><button>Kids</button></a>
+    <br>
+
+    <!--5.Iframe Tag-->
+    <iframe src="../Pages/home.html" 
+    width="900" height="450" 
+    frameborder="1"></iframe>
+    
+    <!-- share => embed => copy => paste -->
+    <!--Youtube embedding-->
+    <iframe width="900" height="450" 
+    src="https://www.youtube.com/embed/goK4hKZ742w?si=yK4X0ZHXwXgljAp_" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+    </iframe>
+
+    <!--Google map embedding-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d61315.61083449169!2d74.53970505127445!3d16.78494526605841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3bc11f2f4aa1f8ad%3A0x6ed3d90e33621e9!2sJaysingpur%2C%20Maharashtra!3m2!1d16.778701899999998!2d74.554442!5e0!3m2!1sen!2sin!4v1750341896192!5m2!1sen!2sin" 
+    width="900" height="450" style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+</body>
+</html>
