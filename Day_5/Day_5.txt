@@ -1,0 +1,37 @@
+Let's take a look at the list and few initial things about table in html.
+
+#List
+-There are three types of lists-
+    1.Ordered
+    2.Unordered
+    3.Descriptive
+-List item is written between <li> clause.
+
+1.Ordered List <ol></ol>
+Ordered list will have indexing to the content of list.
+Attributes of ordered list
+-type=It changes the type of indexing of list as number, alphabate(uppercase/Lowercase), roman Letters(Uppercase/Lowercase).
+-reversed=It reverse the order of indexing of list.
+-start=Defines the starting of index as per the passed starting number.
+
+2.Unordered List <ul></ul>
+Unordered list will not have any indexingto the content.
+Attributes of unordered list
+-type=It can change the type of bullets as points, circle, square, disc.
+
+3.Descriptive List<dl></dl>
+Descriptive list have key value pairs of title and content.
+a.dl=description List
+b.dt=description term
+c.dd=description defination
+
+#Table<table></table>
+-tags= table, tr, td, th, thead, tbody, tfoot, caption
+-Attribute= border, colspan, rowspan, align, cellspacing, cellpadding
+a.tr=table row
+b.td=table data
+c.th=table heading
+-tr*5= It will create 5 rows
+-td*3=It will create 3 data columns
+
+We will learn about the table in detail in next session.
