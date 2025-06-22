@@ -16,4 +16,4 @@ This repository contains my complete notes and key concepts from learning HTML a
 
 ---
 
-Feel free to clone, fork, or refer to this repository as a learning resource!
+Feel free to clone, fork, submit a pull request or refer to this repository as a learning resource!
