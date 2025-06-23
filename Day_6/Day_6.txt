@@ -1,0 +1,89 @@
+Today we will learn about table in detail including the tags and attributes in table.
+
+
+#Tags in table
+
+1.table <table></table>
+-creates new table.
+
+2.tr(table row) <tr></tr>
+-Create new row
+
+3.td(table data) <td></td>
+-Create new cell
+
+4.th(table heading) <th></th>
+-It will add new cell and boldness to cell content indicating it as heading.
+
+5.Caption tag <caption></caption>
+-It gives title to the table.
+
+6.thead <thead></thead>
+-This tag will define the header from table
+
+7.tbody <tbody></tbody>
+-This tag will define the main Body from table.
+
+8.tfoot <tfoot></tfoot>
+-This table will define the footer of the table.
+
+=================================================
+
+#Attribute in table
+
+1.Border-It gives border to the table.
+2.Cellspacing=It is a attribute of table tag used to manage space between cells of table.
+3.Cellpadding=It is used to manage space within cell i.e space between contenct and the border.
+4.rowspan=It will expand the cell and merge number of rows mentioned by us.
+5.colspan=It will expand the cell and merge number of columns mentioned by us.
+6.align=It will give alignment to cell content if used with cell or even to whole table with respect to screen if used with table tag.
+7.span= This attribute will not work in footer if you have applied it in body tag.
+
+==================================================
+
+#Semantic Tags
+-Tags Which gives us the idea about purpose of tag by its name are known as semantic tags.
+-Examples-
+    1.nav
+    2.button
+    3.main
+    4.figure
+    5.iframe
+    6.input
+    7.table
+    8.header
+    9.footer
+    10.img
+    11.audio
+    12.video
+    13.form
+    14.article
+    15.address
+    16.time
+    17.section
+    18.aside
+    19.figcaption
+    20.Few of the formatting tags.
+    21.title
+    22.pre
+    23.head
+    24.body
+    25.label
+    26.thead
+    27.tbody
+    28.tfoot
+    29.html
+    30.h1 to h6
+
+#Non-semantic tags
+-We can't tell the purpose of tag by its name.
+-Examples-    
+    1.span
+    2.div
+
+====================================================
+
+
+
+
+
