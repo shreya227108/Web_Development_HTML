@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+    #Attribute in table
+    -Border-It gives border to the table.
+    -Cellspacing=It is a attribute of table tag used to manage space between cells of table
+    -Cellpadding=It is used to manage space within cell i.e space between contenct and the border
+    -rowspan=It will expand the cell and merge number of rows mentioned by us.
+    -colspan=It will expand the cell and merge number of columns mentioned by us.
+    -align=It will give alignment to cell content if used with cell or even to whole table with respect to screen if used with table tag.
+    -span= This attribute will not work in footer if you have applied it in body tag.    
+    
+    #Tags in table
+    -table=create new table
+    -tr(table row)=Create new row
+    -td(table data)=Create new cell
+    -th(table heading)= It will add new cell and boldness to cell content indicating it as heading.
+    -Caption tag = It gives title to the table.
+    -thead, tbody, tfoot=These tags will define the header, body and footer of the table.
+    -->
+
+    <!-- Example. <table border="1" cellspacing="3" cellpadding="10"> -->
+    <table border="1" align="center">
+        <caption>Value's Table</caption>
+        <thead>
+        <tr >
+            <th>Title 1</th>
+            <th>Title 2</th>
+            <th>Title 3</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr >
+            <td rowspan="2">Value 1</td>
+            <td colspan="2">Value 2</td>
+        </tr>
+
+        <tr >
+            <td colspan="2">Value 3</td>
+        </tr>
+
+        <tr >
+            <td rowspan="2">Value 4</td>
+            <td colspan="2">Value 5</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">Value 6</td>
+        </tr>
+        </tbody>
+
+        <tfoot>
+        <tr align="center">
+            <td colspan="3">Value 6</td>
+        </tr>
+        </tfoot>
+    </table>
+
+    <!--
+    #Semantic Tags
+    -We get the idea about purpose of tag by its name.
+    Examples-
+    1.nav
+    2.button
+    3.main
+    4.figure
+    5.iframe
+    6.input
+    7.table
+    8.header
+    9.footer
+    10.img
+    11.audio
+    12.video
+    13.form
+    14.article
+    15.address
+    16.time
+    17.section
+    18.aside
+    19.figcaption
+    20.Few of the formatting tags.
+    21.title
+    22.pre
+    23.head
+    24.body
+    25.label
+    26.thead
+    27.tbody
+    28.tfoot
+    29.html
+    30.h1 to h6
+
+    #Non-semantic tags
+    -We can't tell the purpose of tag by its name.
+    1.span
+    2.div
+    -->
+</body>
+</html>
