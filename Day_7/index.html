@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+    -Binds the label to the input with the matching id.
+    -for-id pair is used to connect input text and checkbox with each other.
+    -Clicking on the label text automatically puts the cursor in the input field.
+    -->
+    <form action="">
+        CheckBox:<br>
+        <label for="sql">SQL</label>
+        <input type="checkbox" id="sql">
+        <br>
+        <label for="java">Java</label>
+        <input type="checkbox" id="java">
+        <br>
+        <label for="react">React</label>
+        <input type="checkbox" id="react">
+        <br>
+        <label for="springboot">springboot</label>
+        <input type="checkbox" id="springboot">
+        <br>
+        <label for="">python</label>
+        <input type="checkbox" id="python">
+        <br>
+        <button>click</button><br><br>
+
+        Radio Buttons:<br>
+        <!--Radio
+        -for-id pair is used to connect input text and checkbox with each other.
+        -To make it single selection you have to pass same value for name to every option.
+        -To make it multiselection you have to pass different value for name to every option.
+        -->
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label> <br>
+
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label> <br>
+
+        <input type="radio" id="non" name="">
+        <label for="non">Not Mentionable</label> <br>
+
+        <input type="radio" id="Other" name="gender">
+        <label for="Other">Other</label> <br>
+
+        <button>click</button> <br><br>
+    
+
+        <form action="">
+            <!-- 1.fieldset gives a fixed area for specific content-->
+            <fieldset >
+
+            <!--2.Legend adds title over the borderline of fieldset-->
+            <legend>Tags in Form</legend>
+
+            <!--3.text input type adds all the text in one line only-->
+            Text Type(adds all the text in one line only) <br>
+            <input type="text"><br><br>
+
+            <!--4.textarea makes a box or area with length width available for text-->
+            TextArea<br>
+            <textarea name="" id="" rows="5" cols="20"></textarea><br>
+
+            <!--5.Dropdown gives options in same filed only-->
+            Dropdown<br>
+            <select name="" id="">
+                <option value="">Thar</option>
+                <option value="">Buggati</option>
+                <option value="">Porche</option>
+                <option value="">Legender</option>
+                <option value="">Mustang</option>
+            </select><br>
+            <button>Submit</button><br>
+            </fieldset>
+            <br>
+
+
+
+            <fieldset>
+                <legend>Attributes in form</legend>
+                <!--
+                Type specifies the kind of input the field should accept
+                Examples:
+                1.text
+                2.button
+                3.checkbox
+                4.radio
+                5.color 
+                6.Date
+                7.Datetime
+                8.email
+                9.file
+                10.image
+                11.month
+                12.number
+                13.password
+                14.reset
+                15.search
+                16.range
+                17.submit
+                18.url
+                19.time
+                20.week
+                -->
+                1.Text Type(Entre the text in same line)<br>
+                <input type="text"><br><br>
+
+                2.Radio type<br>
+                <input type="radio" id="male" name="gender">
+                <label for="male">Male</label> <br>
+
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label> <br><br>
+                
+                3.Range Type<br>
+                <input type="range" min="0" max="10"><br><br>
+
+                4.Textarea Type<br>
+                <textarea name="" id="" rows="5" cols="20"></textarea><br><br>
+
+                5.Action<br>
+                <form action="submit-form.php" method="post">
+                <input type="text" name="username"><br>
+                <input type="password" name="password"><br>
+                <input type="submit" value="Submit"><br><br>
+                </form>
+
+                <!--value attribute is used to give some default values to input fields-->
+                6.Value<br>
+                <input type="text" value="+91"><br><br>
+
+                <!--Placeholder is used to give hint about the field.
+                (It is a temporary text shown at field.)-->
+                7.Placeholder<br>
+                <input type="text" placeholder="Enter Username"><br><br>
+
+                <!--readonly is used to put the value that is only available for reading no updating-->
+                8.Readonly<br>
+                <input type="text" readonly value="I agree with the terms."><br><br>
+
+                <!--Disabled is a attribute that keeps a button disabled-->
+                9.Disabled<br>
+                <input type="text">
+                <button disabled>submit</button><br><br>
+
+                <!--Autofocus helps us to make input fields defaultly focused and ready for typing.-->
+                10.Autofocus<br>
+                <input type="text"><br><br>
+                <input type="text" autofocus><br><br>
+
+                <!--Accesskey is used to target the fields using Alt+key for easy acess.-->
+                11.Accesskey<br>
+                Username:<input type="text" accesskey="a" placeholder="Alt+a"><br>
+                Password: <input type="text" accesskey="b" placeholder="Alt+b"><br><br>
+
+                <!--
+                minlength=Defines limit to minimum characters to be entred.
+                maxlength=Defines limit to maximum characters to be entred.
+                -->
+                12.Min-Max(Entre min 8 char and max 10 char)<br>
+                <input type="text" minlength="8" maxlength="10"><br>
+
+                <br>
+                <button>Submit</button><br>
+            </fieldset>
+        </form>
+    </form>
+</body>
+</html>
