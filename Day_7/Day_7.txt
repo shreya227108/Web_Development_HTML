@@ -1,0 +1,78 @@
+Today we will mainly take a look at attributes in Form tag.
+
+#Tags in Form
+
+1.Fieldset
+-It gives a fixed box of area for specific content of form.
+
+2.Legent
+-Legend adds title over the borderline of fieldset.
+
+3.Input
+-Defines the field for input.
+
+4.Dropdown
+-Dropdown gives options in same filed only using option-value.
+
+5.TextArea
+-textarea makes a box or area with length width available for text.
+
+===============================================================
+
+#Attributes in Form
+
+1.Type
+-Type specifies the kind of input the field should accept.
+Examples:
+    1.text(Entre the text in same line)
+    2.button
+    3.week
+    4.time
+    5.color 
+    6.Date
+    7.Datetime
+    8.email
+    9.file
+    10.image
+    11.month
+    12.number
+    13.password
+    14.reset
+    15.search
+    16.range
+    17.submit
+    18.url
+    19.radio(-for-id pair is used to connect input text and checkbox with each other.
+            -To make it single selection you have to pass same value for name to every option.
+            -To make it multiselection you have to pass different value for name to every option.)
+
+    20.checkbox-(-for-id pair is used to connect input text and checkbox with each other.
+                -Clicking on the label text automatically puts the cursor in the input field.)
+
+2.Value
+-value attribute is used to give some default values to input fields.
+
+3.Placeholder
+-Placeholder is used to give hint about the field.
+-It is a temporary text shown at field.
+
+4.Readonly
+-readonly is used to put the value that is only available for reading no updating.
+
+5.Disabled
+-Disabled is a attribute that keeps a button disabled.
+
+6.Autofocus
+-Autofocus helps us to make input fields defaultly focused and ready for typing.
+
+7.Accesskey
+-Accesskey is used to target the fields using Alt+key for easy acess.
+
+8.minlength
+-Defines limit to minimum characters to be entred.
+
+9.maxlength
+-Defines limit to maximum characters to be entred.
+
+Here We have completed our HTML!!
+Thanks A lot For joining the journer!
